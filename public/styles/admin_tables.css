@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.user-table {
+  margin-left: 320px;
+  padding: 30px;
+}
+
+.user-table h1 {
+  font-size: 26px;
+}
+
+table {
+  width: 100%;
+  max-width: 1000px;
+  border-collapse: collapse;
+  margin-top: 30px;
+  background: #fff;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.delete-btn:hover {
+  background-color: #b52a37;
+}
+
+.msg {
+  background: #ff3c00;
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  max-width: 1000px;
+}
+
+.update-btn {
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btn-container input{
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

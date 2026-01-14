@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,25 +20,25 @@
   <div class="login-container">
 
     <h1>Login</h1>
-    <form class="login-form" method="POST" action="">
+    <?php
+    if (!empty($_SESSION['login_failed'])) {
+      echo '<p class="error-msg">' . $_SESSION['login_failed'] . '</p>';
+      $_SESSION['login_failed'] = '';
+    }
+    ?>
+    <form class="login-form" method="POST" action="../controllers/login_controller.php">
 
       <div class="form-group">
         <label>Email</label>
-        <input type="email" placeholder="example@example.com" required>
+        <input type="email" name="email" placeholder="example@example.com" required>
       </div>
 
       <div class="form-group">
         <label>Password</label>
-        <div class="password-field">
-          <input type="password" placeholder="" required>
-        </div>
-
-        <div class="form-meta">
-          <small>Must be 6 Characters at Least</small>
-        </div>
+        <input type="password" name="password" placeholder="" required>
       </div>
 
-      <button type="submit" class="login-Btn">Sign in</button>
+      <button type="submit" class="login-Btn" name="sign-in">Sign in</button>
 
       <p class="register-text">
         Don't have an account ?
