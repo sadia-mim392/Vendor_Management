@@ -102,6 +102,10 @@
   font-size: 15px;
 }
 
+.categories-section{
+  margin: 0 auto;
+}
+
 .categories-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);

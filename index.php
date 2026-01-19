@@ -56,87 +56,60 @@
 
     </div>
   </section>
+
   <section class="categories-section">
     <div class="section-header">
       <span class="section-icon">●</span>
-      <h2>Explore our <span>Categories</span></h2>
+      <h2>Explore our <span>Event Categories</span></h2>
       <p>
-        Service categories help organize and structure the offerings on a marketplace,
-        making it easier for users to find what they need.
+        Browse essential event service categories designed
+        to help you plan weddings, parties, and special occasions.
       </p>
     </div>
 
     <div class="categories-grid">
 
       <div class="category-card">
-        <img src="assets/icons/appliance.svg">
-        <h4>Appliance</h4>
+        <span class="category-badge">01</span>
+        <h4>Wedding Decoration</h4>
+        <p>Stage design, floral setup, and venue styling</p>
       </div>
 
       <div class="category-card">
-        <img src="assets/icons/carwash.svg">
-        <h4>Car Wash</h4>
+        <span class="category-badge">02</span>
+        <h4>Catering Services</h4>
+        <p>Wedding and party catering solutions</p>
       </div>
 
       <div class="category-card">
-        <img src="assets/icons/cleaning.svg">
-        <h4>Cleaning</h4>
+        <span class="category-badge">03</span>
+        <h4>Lighting & Sound</h4>
+        <p>Professional audio and lighting systems</p>
       </div>
 
       <div class="category-card">
-        <img src="assets/icons/computer.svg">
-        <h4>Computer</h4>
+        <span class="category-badge">04</span>
+        <h4>Photography</h4>
+        <p>Wedding and event photography services</p>
       </div>
 
       <div class="category-card">
-        <img src="assets/icons/construction.svg">
-        <h4>Construction</h4>
-      </div>
-
-      <div class="category-card">
-        <img src="assets/icons/electrical.svg">
-        <h4>Electrical</h4>
-      </div>
-
-      <div class="category-card">
-        <img src="assets/icons/interior.svg">
-        <h4>Interior</h4>
-      </div>
-
-      <div class="category-card">
-        <img src="assets/icons/plumbing.svg">
-        <h4>Plumbing</h4>
-      </div>
-
-      <div class="category-card">
-        <img src="assets/icons/appliance.svg">
-        <h4>Appliance</h4>
-      </div>
-
-      <div class="category-card">
-        <img src="assets/icons/carwash.svg">
-        <h4>Car Wash</h4>
-      </div>
-
-      <div class="category-card">
-        <img src="assets/icons/carpentry.svg">
-        <h4>Carpentry</h4>
-      </div>
-
-      <div class="category-card">
-        <img src="assets/icons/cleaning.svg">
-        <h4>Cleaning</h4>
+        <span class="category-badge">05</span>
+        <h4>Furniture Rental</h4>
+        <p>Luxury chairs, tables, and event furniture</p>
       </div>
 
     </div>
   </section>
+
+
   <section class="featured-services">
     <div class="section-header">
       <span class="section-icon">●</span>
       <h2>Our Featured <span>Services</span></h2>
       <p>
-        Each listing is designed to be clear and concise,
-        providing customers with trusted services.
+        Handpicked event services from trusted vendors
+        to make your special moments unforgettable.
       </p>
     </div>
 
@@ -147,10 +120,10 @@
           <img src="./assets/services.jpg">
         </div>
         <div class="service-content">
-          <h4>Electric Panel Repairing Service</h4>
+          <h4>Premium Wedding Stage Decoration</h4>
           <div class="service-info">
-            <span>Service starts at £45</span>
-            <span class="rating">⭐ 0.0</span>
+            <span>Starts from ৳50,000</span>
+            <span class="rating">⭐ 4.9</span>
           </div>
         </div>
       </div>
@@ -160,10 +133,10 @@
           <img src="./assets/services.jpg">
         </div>
         <div class="service-content">
-          <h4>Computer & Server AMC Service</h4>
+          <h4>Full Wedding Catering Package</h4>
           <div class="service-info">
-            <span>Service starts at £150</span>
-            <span class="rating">⭐ 0.0</span>
+            <span>Starts from ৳80,000</span>
+            <span class="rating">⭐ 4.8</span>
           </div>
         </div>
       </div>
@@ -173,23 +146,26 @@
           <img src="./assets/services.jpg">
         </div>
         <div class="service-content">
-          <h4>Tire and Wheel Repair Services</h4>
+          <h4>Professional Wedding Photography</h4>
           <div class="service-info">
-            <span>Service starts at £100</span>
-            <span class="rating">⭐ 0.0</span>
+            <span>Starts from ৳40,000</span>
+            <span class="rating">⭐ 4.7</span>
           </div>
         </div>
       </div>
 
     </div>
   </section>
+
+
+
   <section class="popular-providers">
     <div class="section-header">
       <span class="section-icon">●</span>
-      <h2>Popular <span>Providers</span></h2>
+      <h2>Popular <span>Event Providers</span></h2>
       <p>
-        Each listing is designed to be clear and concise,
-        providing customers with trusted professionals.
+        Experienced vendors delivering quality services
+        for weddings and special events.
       </p>
     </div>
 
@@ -198,44 +174,45 @@
       <div class="provider-card">
         <img src="assets/services.jpg">
         <div class="provider-info">
-          <h4>Provider Demo</h4>
-          <p>Electrician</p>
+          <h4>Royal Wedding Decor</h4>
+          <p>Stage & Venue Decoration</p>
         </div>
       </div>
 
       <div class="provider-card">
         <img src="assets/services.jpg">
         <div class="provider-info">
-          <h4>Lucile Devera</h4>
-          <p>Cleaner</p>
+          <h4>Elite Catering</h4>
+          <p>Wedding Catering</p>
         </div>
       </div>
 
       <div class="provider-card">
         <img src="assets/services.jpg">
         <div class="provider-info">
-          <h4>Maritza Wasson</h4>
-          <p>Carpenter</p>
+          <h4>SoundPro Events</h4>
+          <p>Lighting & Sound</p>
         </div>
       </div>
 
       <div class="provider-card">
         <img src="assets/services.jpg">
         <div class="provider-info">
-          <h4>David Morrison</h4>
-          <p>Engineer</p>
+          <h4>Capture Moments</h4>
+          <p>Wedding Photography</p>
         </div>
       </div>
 
     </div>
   </section>
+
   <section class="testimonials">
     <div class="section-header">
       <span class="section-icon">●</span>
-      <h2>Genuine reviews from <span>Customers</span></h2>
+      <h2>Trusted Reviews from <span>Customers</span></h2>
       <p>
-        Each listing is designed to be clear and concise,
-        providing customers with real feedback.
+        Real feedback from customers who successfully planned
+        weddings and events using THRYVENX.
       </p>
     </div>
 
@@ -244,57 +221,60 @@
 
         <div class="testimonial-card">
           <div class="stars">★★★★★</div>
-          <h4>Quality of work was excellent</h4>
+          <h4>Beautiful Wedding Decoration</h4>
           <p>
-            “I had a great experience with ABC Electrical on the services.
-            The electrician arrived on time!!”
+            “The premium wedding stage decoration exceeded our expectations.
+            The setup was elegant, timely, and perfectly matched our theme.”
           </p>
 
           <div class="testimonial-footer">
             <div class="user">
               <img src="./assets/avatar.jpg">
-              <span>Daniel Davis</span>
+              <span>Rahim Ahmed</span>
             </div>
-            <small>7 Days Ago</small>
+            <small>10 Days Ago</small>
           </div>
         </div>
 
         <div class="testimonial-card">
           <div class="stars">★★★★★</div>
-          <h4>Green Cleaning</h4>
+          <h4>Excellent Catering Service</h4>
           <p>
-            “I love that they use eco-friendly products without
-            compromising on cleanliness with care.”
+            “The wedding catering package was outstanding.
+            Guests loved the food quality and variety.
+            Highly recommended for big events.”
           </p>
 
           <div class="testimonial-footer">
             <div class="user">
               <img src="./assets/avatar2.jpg">
-              <span>Daniel Davis</span>
+              <span>Sadia Rahman</span>
             </div>
-            <small>7 Days Ago</small>
+            <small>2 Weeks Ago</small>
           </div>
         </div>
 
         <div class="testimonial-card">
           <div class="stars">★★★★★</div>
-          <h4>Luxury Car Cleaning</h4>
+          <h4>Professional Photography</h4>
           <p>
-            “I love that they use eco-friendly products without
-            compromising on cleanliness with care.”
+            “The photography team captured every special moment beautifully.
+            The photos were high-quality and delivered on time.”
           </p>
 
           <div class="testimonial-footer">
             <div class="user">
-              <img src="./assets/avatar2.jpg">
-              <span>Daniel Davis</span>
+              <img src="./assets/avatar.jpg">
+              <span>Tanvir Hossain</span>
             </div>
-            <small>7 Days Ago</small>
+            <small>1 Month Ago</small>
           </div>
         </div>
+
       </div>
     </div>
   </section>
+
   <?php include 'views/layouts/footer.php'; ?>
 </body>
 

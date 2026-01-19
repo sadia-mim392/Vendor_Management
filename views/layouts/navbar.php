@@ -3,15 +3,15 @@ if(session_status()===PHP_SESSION_NONE){
   session_start();
 }
 $currentPath=$_SERVER['REQUEST_URI'];
+$isLoggedIn = isset($_SESSION['user']['id']);
 ?>
 <nav class="navbar">
   <div class="logo">THRYVENX</div>
   <div class="nav-links">
     <ul>
       <li><a href="../../../VendorManagement/index.php" class="<?php echo strpos($currentPath, '/VendorManagement/index.php') !== false ? 'active' : ''; ?>">Home</a></li>
-      <li><a href="about.php">About</a></li>
-      <li><a href="services.php">Services</a></li>
-      <li><a href="contact.php">Contact</a></li>
+      <li><a href="../../../VendorManagement/customer/browse.php">Services</a></li>
+      <li><a href="../../../VendorManagement/customer/my-orders.php">My Bookings</a></li>
     </ul>
   </div>
   <div class="btn-container">

@@ -19,13 +19,17 @@ function Login($email, $password)
       'status' => $user['status'],
       'created_at' => $user['created_at']
     ];
-    if ($_SESSION['user']['role'] == 'customer') {
+    if ($_SESSION['user']['role'] == 'vendor') {
       $conn->close();
-      header("Location: ../../../../VendorManagement/index.php");
+      header("Location: ../../../../VendorManagement/vendor/dashboard.php");
       exit;
     } elseif ($_SESSION['user']['role'] === 'admin') {
       $conn->close();
       header("Location: ../../../../VendorManagement/views/admin_dashboard.php");
+      exit;
+    }elseif ($_SESSION['user']['role'] === 'customer') {
+      $conn->close();
+      header("Location: ../../../../VendorManagement/index.php");
       exit;
     }
   } else {
@@ -35,26 +39,6 @@ function Login($email, $password)
   header("Location: ../../../../VendorManagement/views/login.php");
   exit;
 }
-
-// function Register($name, $email, $password, $role){
-//   global $conn;
-//   $check = "SELECT * FROM users WHERE email = '$email'";
-//   $result = $conn->query($check);
-
-//   if ($result->num_rows > 0) {
-//     $_SESSION['emailErr'] = "Email already registered.";
-//   } else {
-//     $sql = "INSERT INTO users (name, email, password, role) VALUES ('$name', '$email', '$password', '$role')";
-//     if ($conn->query($sql) === TRUE) {
-//       $_SESSION['success'] = "Registration successful.";
-//     } else {
-//       $_SESSION['success'] = "Error: " . $conn->error;
-//     }
-//   }
-//   $conn->close();
-//   header("Location: ../views/register.php");
-//   exit;
-// }
 
 function Register($name, $email, $password, $role)
 {
@@ -66,7 +50,6 @@ function Register($name, $email, $password, $role)
     $_SESSION['emailErr'] = "Email already registered.";
   } else {
     $sql="INSERT INTO users (name, email, password, role) VALUES ('$name', '$email', '$password', '$role')";
-
     if($conn->query($sql)===TRUE) {
       $user_id = $conn->insert_id;
       if ($role=='vendor') {
